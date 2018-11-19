@@ -1,4 +1,16 @@
-# Cache plugin intgration for SailsJS
+# Updated
+
+Modified version of gayanhewa/sailsjs-cacheman, to fix some optimization issues (such as always creating a new object everytime require is called)
+
+# TTL Support
+
+Previously data would be stored temporarily for approx 60 seconds. I've added better TTL support which you can now modify by doing
+
+~~~
+let cache = require('sailsjs-cacheman').sailsCacheman(dbName, {ttl: inputs.expirationTimeInSeconds});
+~~~
+
+# Cache plugin integration for SailsJS
 
 This package simply integrates and bundles Cacheman to be used easily within SailsJS framework.
 
