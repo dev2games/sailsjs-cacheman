@@ -1,5 +1,5 @@
 {
-  "name": "sailsjs-cacheman",
+  "name": "dev2games/sailsjs-cacheman",
   "version": "0.1.4",
   "description": "SailsJS Cache Module , wraps around Cacheman for NodeJS.",
   "main": "index.js",
@@ -19,6 +19,12 @@
     "mongodb"
   ],
   "author": "Gayan Hewa",
+   "contributors": [
+    {
+      "name": "Nelson Sanchez",
+      "email": ""
+    }
+   ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/dev2games/sailsjs-cacheman/issues"
