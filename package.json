@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gayanhewa/sailsjs-cacheman.git"
+    "url": "https://github.com/dev2games/sailsjs-cacheman.git"
   },
   "keywords": [
     "sailsjs",
@@ -21,14 +21,14 @@
   "author": "Gayan Hewa",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gayanhewa/sailsjs-cacheman/issues"
+    "url": "https://github.com/dev2games/sailsjs-cacheman/issues"
   },
-  "homepage": "https://github.com/gayanhewa/sailsjs-cacheman",
+  "homepage": "https://github.com/dev2games/sailsjs-cacheman",
   "dependencies": {
     "cacheman": "2.2.1",
-    "cacheman-file": "0.0.8",
-    "cacheman-mongo": "^0.2.1",
-    "cacheman-redis": "1.1.2",
-    "underscore": "^1.8.2"
+    "cacheman-file": "0.2.1",
+    "cacheman-mongo": "^1.0.3",
+    "cacheman-redis": "2.0.0",
+    "underscore": "^1.9.1"
   }
-}
+} 
